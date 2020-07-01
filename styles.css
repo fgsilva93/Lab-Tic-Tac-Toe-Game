@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    padding: 3em;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+#reset {
+    display: none;
+    margin: 5px;
+}
+
+.box {
+    background-color: whitesmoke;
+}
+
+body{
+    margin: 0 auto;
+    height: 100%;
+    background: url("https://wallpapershome.com/images/pages/ico_h/16848.jpg");
+    background-size: cover;
+    background-position: center;
+}
